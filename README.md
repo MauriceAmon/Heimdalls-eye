@@ -1,5 +1,13 @@
 # Heimdalls-eye
-Supports administration, adjustment and Livestreaming of PTZ-IP-Cameras that implement the ONVIF-Standard.
+Supports administration, adjustment and Livestreaming of PTZ-IP-Cameras that implement the ONVIF-Standard. 
+
+* Heimdall's Eye follows the Model-View-Controller Architecture 
+* The communication between the IP-Camera and the device running Heimdall's Eye is realized over the SOAP-Protocol.
+* The format is hereby XML-based. 
+* The configurations for the devices are persistently saved in an integrated Apache Derby Database.
+* Heimdall's Eye doesn't use any external frameworks to realize the Object-Relational Mapping (ORM).
+* The application makes use of the Unit-Of-Work-Pattern for all Database transactions.
+
 
 ## Overview
 * [Technologies](#technologies)
