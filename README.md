@@ -8,7 +8,7 @@ Supports administration, adjustment and Livestreaming of PTZ-IP-Cameras that imp
 * Heimdall's Eye doesn't use any external frameworks to realize the Object-Relational Mapping (ORM).
 * The application makes use of the Unit-Of-Work-Pattern for all Database transactions.
 
-I'll provide additional information regaarding the architecture of the software in the future. 
+I'll provide additional information regarding the architecture of the software in the future. 
 
 
 ## Overview
