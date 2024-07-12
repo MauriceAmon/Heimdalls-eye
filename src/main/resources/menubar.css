@@ -1,0 +1,78 @@
+/*
+The MIT License
+
+Copyright 2016 Maurice.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+/* 
+    Created on : 22.01.2016, 14:02:39
+    Author     : Maurice Amon
+*/
+
+
+.menu-bar {
+    -fx-font-size: 14px;
+    -fx-padding: 0%;
+}
+
+.menu {
+    -fx-cursor: hand;
+}
+
+.menu-item  {
+    -fx-cursor: hand;
+}
+
+.list-cell {
+    -fx-padding: 5px 0 5px 0;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+}
+
+#start {
+    -fx-padding: 10px 0 10px 0;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-background-color: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
+    -fx-alignment: center;
+}
+
+#start:hover {
+    -fx-background-color: linear-gradient(to bottom, #265a88 0, #337ab7 100%);
+    -fx-cursor: hand;
+}
+
+#videotest {
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+    -fx-cursor: hand;
+}
+
+#videotest:hover {
+    -fx-border-color: #337ab7;
+}
+
+#videotest-active {
+    -fx-border-color: #337ab7;
+    -fx-border-width: 4px;
+    -fx-cursor: hand;
+}
