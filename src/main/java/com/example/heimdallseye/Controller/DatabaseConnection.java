@@ -38,7 +38,7 @@ public class DatabaseConnection {
     private final Integer PORT = 1527;
     private final String DB_NAME = "HeimdallsEye";
     private final String USER_NAME = "root";
-    private final String USER_PASS = "rreinhart";
+    private final String USER_PASS = "";
 
     public DatabaseConnection() {
 
